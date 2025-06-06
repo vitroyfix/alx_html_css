@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-right: 2px solid #eee;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: #eee;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header li.logo {
+  margin-right: auto;
+  font-size: 24px;
+}
+
+h1, h2, h3 {
+  color: #2a7ae2;
+}
+
+table {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #eaeaea;
+}
