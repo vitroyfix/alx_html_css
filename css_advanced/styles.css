@@ -1,0 +1,157 @@
+body { 
+  background-image: url('Object.png');
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 30px;
+}
+
+.top-right-nav {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-right-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+.learn-word {
+  color: #a259ff; 
+  font-weight: bold; 
+}
+
+.smile-word {
+  width: 52px;
+  height: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.moods {
+  margin-bottom: 40px;
+}
+
+.moods span {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.register-btn {
+  display: block;
+  margin: 60px auto 0 auto;
+  padding: 20px 40px;
+  border: 2px solid #C271FF;
+  border-radius: 150px;
+  background-color: #C271FF;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Updated Learn from the Pros Section */
+.pros-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 80px auto 60px auto;
+  padding: 0 2rem;
+  max-width: 1920px;
+}
+
+.pro-item {
+  text-align: center;
+  width: 180px;
+}
+
+.pro-item img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+
+.pro-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: white;
+}
+
+.pro-item p {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.7);
+}
