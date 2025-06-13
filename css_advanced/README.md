@@ -35,3 +35,4 @@ Spin Cycle OT (may require manual installation)
 Credits
 
 Design and guidelines by ALX. This project was completed as part of the ALX Software Engineering Program for educational purposes.
+
